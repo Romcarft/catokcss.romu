@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Container utama */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #2a4d6b;
+}
+
+/* Styling gambar */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Menu Navigasi */
+nav {
+    background-color: #2a4d6b;
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #1e3c57;
+}
+
+/* Styling heading data diri */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #2a4d6b;
+}
+
+/* Styling tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Styling links */
+a {
+    color: #2a4d6b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: 0.3s ease;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    color: #8a6f6f;
+    border: 2px solid #1e3c57;
+}
+
+/* Bagian tentang saya */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Styling untuk section */
+h3 {
+    font-size: 20px;
+    color: #2a4d6b;
+    border-bottom: 2px solid #2a4d6b;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Styling untuk kontak */
+.contact {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
